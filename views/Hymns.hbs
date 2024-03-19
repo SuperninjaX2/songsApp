@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamba Hymns</title>
+ 
+  <style type="text/css">   
+@import url('css/layout.css')
+</style>
+  
+   <link rel="stylesheet" href="css/hymes.css" type="text/css" media="all" />
+</head>
+<body>
+<header class="header">
+<div class="d-flex bg-dark">
+<img id="menu-btn" src="/images/menu.svg"></img>
+<h1 class="heading">Inyimbo</h1>
+<img src="/images/love.svg" class="fav">fav</img>
+</div>
+<div class="lang">
+  <small class="tiny">Lamba</small>
+</div>
+
+</header>
+<main>
+  <section>
+   <div class="song-container" hx-get="/songs/1" hx-target="main" hx-swap="outerHTML" hx-trigger="click">
+<h3 class="song">
+<span clase="song-number">1.</span>
+<span class="song-title">title of the song</span>
+</h3>
+</div>
+ 
+  </section>
+</main>
+
+
+<script src="htmx.js"></script>
+</body>
+</html>

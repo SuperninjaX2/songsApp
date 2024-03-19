@@ -1,0 +1,121 @@
+:root {
+  --accent: #DF2E38;
+  --accent2:#E73C73;
+  --secondary:#312C38;
+  --primary: #BFB0a0;
+  --light: #F7EFE7;
+  --light10:rgba(255,255,255,0.8);
+  --dark:#121212;
+}
+a{
+  text-decoration: none;
+  color: var(--accent);
+}
+body {
+  color: var(--accent);
+  padding: 0;
+  margin: 0;
+  font-family:Times New Roman, serif;
+}
+
+header {
+  background: var(--light10);
+  width: 100vw;
+  max-height: 8vh; 
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  color: var(--dark);
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+.fav{
+  width: 30px;
+}
+main {
+  margin-top: 8vh;
+  background: var(--light);
+  height: auto;
+  min-height: 100vh;
+  width: 100vw;
+  color: black;
+}
+#menu-btn{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: .2em;
+}
+#menu-btn img{
+  width: 30px;
+}
+.church{
+  display: flex;
+  margin: auto;
+}
+.logo{
+  width: 30px;
+  height: auto;
+}
+.brand {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn-vibe {
+  width: 97vw;
+  height: 15vh;
+  border: none;
+  border-radius: 4pt;
+  background: var(--light10);
+  color: var(--dark);
+  font-size: 1.6em;
+  text-align: left;
+  margin:.1em;
+}
+
+.btn-vibe:hover {
+  background: ghostwhite;
+  color: black;
+  outline: 1px solid var(--accent);
+}
+.tab{
+  margin: auto;
+  width:90vw;
+  height: 30vh;
+  background: rgba(255,255,255,0.7);
+  border-radius: 8pt;
+  display: flex;
+  overflow: hidden;
+}
+
+.tab img{
+  width: 90vw ;
+  opacity: 0.7;
+}
+.cover{
+  position: absolute;
+  z-index: 5;
+  width: 90vw;
+  height: 30vh;
+  background: transparent;
+  backdrop-filter:blur(3px);
+}
+.cover .heading{
+  color:var(--accent),
+  font-size: 2em;
+  text-align: center;
+  padding: 1em;
+}
+.heading-t{
+  padding-left: .5em;
+  font-size: 1.3em;
+  font-style: italic;
+}

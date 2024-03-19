@@ -1,0 +1,72 @@
+@import 'layout.css'
+ body {
+   display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  header{
+    width: 100vw;
+    height: auto;
+    position: fixed;
+    top: 0 ;
+    color: #fff;
+  }
+  main{
+    margin-top: 10vh;
+    max-height: 100sdvh;
+    max-width: 100sdvh;
+    background: ghostwhite;
+  }
+  section{
+    margin-top: 5vh;
+  }
+  .d-flex{
+    display:flex;
+  }
+  .bg-dark{
+    background-color: var(--light10);
+    color: var(--dark);
+  }
+  .heading{
+    margin: auto;
+  }
+  #menu-btn{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+  }
+  .fav{
+  text-decoration: none;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--dark);
+  }
+  .lang{
+    background: var(--accent);
+    width: 15vw;
+    padding: .2em;
+    border-bottom-right-radius: 50vw;
+  }
+  .tiny{
+
+    color: var(--light10);
+    background: var(--accent);
+    font-size: .8em;
+    font-weight: none;
+  }
+  .song-container{
+    background: var(--light);
+    padding: .2em;
+    border-radius:4pt;
+  }
+  .song-number{
+    font-size: 1.3em;
+  }
+  .song-title{
+    font-size: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+  }

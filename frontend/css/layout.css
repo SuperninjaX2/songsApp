@@ -1,0 +1,20 @@
+:root {
+  --accent: #DF2E38;
+  --accent2:#E73C73;
+  --secondary:#312C38;
+  --primary: #BFB0a0;
+  --light: #F7EFE7;
+  --light10:rgba(255,255,255,0.8);
+  --dark:#121212;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+#menu-btn{
+  width: 30px;
+
+}
+.fav{
+  width:30px;
+}
