@@ -2,10 +2,12 @@
   "name": "babtist",
   "version": "1.0.0",
   "description": "babitz",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "node app",
+    "build": "npm i",
+    "dev": "nodemon app"
   },
   "author": "joseph lungu",
   "license": "ISC",
